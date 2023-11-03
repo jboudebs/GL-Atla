@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ERiP</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
+  <link href="../stylesheets/style.css" rel="stylesheet">
+  <link rel="icon" href="../icon.png" type="image/png">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/logout">
+            Déconnexion
+        </a>
+        <a class="navbar-brand" href="/dashboard">
+            Vos informations
+        </a>
+        <a class="navbar-brand" href="/filesDeposit">
+            Dépôt des fichiers
+        </a>
+        <a class="navbar-brand" href="/applicationTracking">
+            Suivi candidature
+        </a>
+        <a class="navbar-brand" href="/meetingsTracking">
+            Suivi entretiens
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+
+        <h2 class="member-status"></h2>
+        <p class='info'></p>
+        <ul class='filesMissing'></ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/applicationTracking.js"></script>
+
+
+</body>
+
+</html>

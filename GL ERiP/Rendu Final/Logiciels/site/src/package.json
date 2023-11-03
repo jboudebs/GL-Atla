@@ -1,0 +1,30 @@
+{
+  "name": "gl-website",
+  "version": "1.0.0",
+  "description": "A website for GL project",
+  "main": "app/server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js",
+    "nodemon": "nodemon app/server.js"
+  },
+  "author": "Melvin NAMONT",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.1.0",
+    "node-wildcard": "0.0.9",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.21.3"
+  }
+}

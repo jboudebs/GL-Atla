@@ -1,0 +1,91 @@
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+
+.navbar
+{
+  
+  background-color: #D3D3D3;
+  
+}
+
+.navbar a:hover
+{
+  transition: 0.5;
+  color: white !important;
+}
+
+.meetingsList
+{
+  margin-top: 30px;
+  font-size: medium;
+}
+
+input[type=submit]
+{
+  color: white;
+  border-radius: 8px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px auto;
+  background: darkgray;
+  border-color: darkgray;
+  border-style: solid;
+  transition: 1s;
+}
+
+input[type=submit]:hover
+{
+  background: gray;
+  border-color: gray;
+}
+
+input[type=submit]:focus
+{
+  outline: none;
+  border-color: gray;
+  background: gray;
+}
+
+
+#inputID, #inputCV, #inputLM, #inputSR
+{
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+}
+
+.input-label
+{
+  background: darkgray;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.input-label:hover
+{
+  background: gray;
+  cursor: pointer;
+}
+
+.fas
+{
+  margin-right: 10px;
+}
+
+p
+{
+  font-size: large;
+}
+
+li
+{
+  font-size: large;
+}
+.welcome
+{
+  margin-top: 5em;
+  margin-bottom: 50px;
+}
